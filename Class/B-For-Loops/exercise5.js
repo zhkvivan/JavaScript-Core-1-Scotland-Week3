@@ -6,6 +6,12 @@ let numbersList = [4, 10, 22, 34, 16, 18];
 // Here we declare an empty array
 let newArray = [];
 
+for (let i = 0; i < numbersList.length; i++) {
+	if (numbersList[i] < 18) {
+		newArray.push(numbersList[i])
+	}
+}
+
 // Write a "for" loop to ITERATE through the numbersList array
 
 // Inside the "for" loop, write an "if" statement to 
